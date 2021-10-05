@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/button_orange.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/circle_blue.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/round.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/round_in_drawable.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/drawable/round_in_drawable_white.xml" value="0.26875" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/activity_web_view.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/card_view.xml" value="0.33" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/detail_item.xml" value="0.33" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/fragment_1.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/fragment_favorite.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/fragment_first.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/fragment_mode_select.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/fragment_second.xml" value="0.2526041666666667" />
+        <entry key="..\:/kotlinApplication/app/src/main/res/layout/round.xml" value="0.2526041666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
