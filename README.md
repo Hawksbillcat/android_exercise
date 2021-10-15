@@ -1,2 +1,2 @@
-# android_exercise
+# interview practice
 
