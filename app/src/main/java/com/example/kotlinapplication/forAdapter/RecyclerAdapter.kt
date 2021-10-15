@@ -162,8 +162,8 @@ class RecyclerAdapter(private val mData: List<GithubData>, private val context:C
                 jsonObject.addProperty("location",response.body()?.location)
                 jsonObject.addProperty("blog",response.body()?.blog)
                 jsonObject.addProperty("site_admin", response.body()?.site_admin?.let { isAdmin(it) })
-                // replaceFragment(FragmentSecond(),jsonObject)
-                Toast.makeText(context,"clicked $lo", Toast.LENGTH_SHORT).show()
+                replaceFragment(FragmentSecond(),jsonObject)
+                //Toast.makeText(context,"clicked $lo", Toast.LENGTH_SHORT).show()
                 val data = lo?.let { FavoriteUser(0,it,response.body()?.avatar_url.toString(),false,) }
                 if (data != null) {
                     insertData(data)
