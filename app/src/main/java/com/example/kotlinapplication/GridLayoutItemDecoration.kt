@@ -17,7 +17,7 @@ class GridLayoutItemDecoration(private val space:Int): RecyclerView.ItemDecorati
         }
         if( position % 2 != 0){
             outRect.right = space
-        }
+        } 
 
         outRect.left = space
         outRect.bottom = space
