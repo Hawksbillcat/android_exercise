@@ -20,6 +20,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
+            <ImageView
+                android:id="@+id/testV"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
             <RelativeLayout
                 android:id="@+id/userList"
                 android:layout_width="match_parent"

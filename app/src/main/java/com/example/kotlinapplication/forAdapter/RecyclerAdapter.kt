@@ -37,7 +37,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 @InternalCoroutinesApi
-class RecyclerAdapter(private val mData: List<GithubData>, private val context:Context,): RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
+class RecyclerAdapter(private val mData: List<GithubData>, private val context:Context): RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
 
     private var title = arrayOf("bear","yumi","Jim")
     private var siteArr = arrayOf("user","user","staff")

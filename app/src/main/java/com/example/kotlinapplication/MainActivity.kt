@@ -1,9 +1,12 @@
 package com.example.kotlinapplication
 
+import android.content.ContentValues
+import android.graphics.BitmapFactory
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +16,7 @@ import com.example.kotlinapplication.forAdapter.MyAdapter
 import com.example.kotlinapplication.forFragment.FragmentFirst
 import com.example.kotlinapplication.forFragment.FragmentModeSelect
 import com.example.kotlinapplication.forFragment.FragmentSecond
+import com.example.kotlinapplication.forFragment.RecyclerFragment
 import com.example.kotlinapplication.textClass.MainViewModel
 import com.example.kotlinapplication.textClass.ThirdsData
 import kotlinx.coroutines.InternalCoroutinesApi
@@ -55,7 +59,17 @@ class MainActivity : AppCompatActivity() {
 
         increase()
         //addFragment(fragmentFirst)
-        addFragment(FragmentModeSelect())
+        val viewModel = ViewModelProvider(this).get(TestViewModel::class.java)
+        val b = BitmapFactory.decodeResource(resources,R.drawable.bee)
+        viewModel.setB(b)
+        val i = (Math.random()*50).toInt()
+        viewModel.setSec(i)
+        viewModel.getSec().observe(this, Observer {
+            Log.i(ContentValues.TAG, "sec = $it ")
+        })
+        //addFragment(FragmentModeSelect())
+            addFragment(RecyclerFragment())
+
 
 
     }
